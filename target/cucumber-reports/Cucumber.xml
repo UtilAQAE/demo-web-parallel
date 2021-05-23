@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="86.071">
+<testcase classname="Scenarios file" name="test 1" time="25.119">
+<system-out><![CDATA[Given I open the chrome browser and navigate to http://localhost:83/#!/home.passed
+Then the element on home page is present....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file" name="test 1 2" time="57.157">
+<system-out><![CDATA[Given I open the firefox browser and navigate to http://localhost:83/#!/home.passed
+Then the element on home page is present....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file" name="test 2" time="28.194">
+<system-out><![CDATA[Given I open the chrome browser and navigate to http://localhost:83/#!/experts/search.passed
+Then the element on experts page is present.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file" name="test 2 2" time="60.679">
+<system-out><![CDATA[Given I open the firefox browser and navigate to http://localhost:83/#!/experts/search.passed
+Then the element on experts page is present.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file" name="test 3" time="39.042">
+<system-out><![CDATA[Given I open the chrome browser and navigate to http://localhost:83/#!/jobs/search.passed
+Then the element on jobs page is present....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file" name="test 3 2" time="61.415">
+<system-out><![CDATA[Given I open the firefox browser and navigate to http://localhost:83/#!/jobs/search.passed
+Then the element on jobs page is present....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file 2" name="test file 2.1" time="33.642">
+<system-out><![CDATA[Given I open the chrome browser and navigate to http://localhost:83/#!/organizations/search.passed
+Then the element on organizations page is present...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file 2" name="test file 2.1 2" time="63.763">
+<system-out><![CDATA[Given I open the firefox browser and navigate to http://localhost:83/#!/organizations/search.passed
+Then the element on organizations page is present...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file 2" name="test file 2.2" time="44.051">
+<system-out><![CDATA[Given I open the chrome browser and navigate to http://localhost:83/#!/tenders/search.passed
+Then the element on funding page is present.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file 2" name="test file 2.2 2" time="59.647">
+<system-out><![CDATA[Given I open the firefox browser and navigate to http://localhost:83/#!/tenders/search.passed
+Then the element on funding page is present.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file 2" name="test file 2.3" time="60.756">
+<system-out><![CDATA[Given I open the chrome browser and navigate to http://localhost:83/#!/donors.passed
+Then the element on donors page is present..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios file 2" name="test file 2.3 2" time="43.82">
+<system-out><![CDATA[Given I open the firefox browser and navigate to http://localhost:83/#!/donors.passed
+Then the element on donors page is present..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

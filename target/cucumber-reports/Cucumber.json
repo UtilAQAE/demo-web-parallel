@@ -1,0 +1,956 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-23T16:28:37.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "test 1",
+        "description": "",
+        "id": "scenarios-file;test-1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 569000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23997000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the chrome browser and navigate to http://localhost:83/#!/home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/home",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 544000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the element on home page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "test 1",
+        "description": "",
+        "id": "scenarios-file;test-1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6511000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 48398000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the firefox browser and navigate to http://localhost:83/#!/home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/home",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2233000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the element on home page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.129Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "test 2",
+        "description": "",
+        "id": "scenarios-file;test-2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18088000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open the chrome browser and navigate to http://localhost:83/#!/experts/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/experts/search",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9848000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the element on experts page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "experts",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.129Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "test 2",
+        "description": "",
+        "id": "scenarios-file;test-2;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5269000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52475000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open the firefox browser and navigate to http://localhost:83/#!/experts/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/experts/search",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2925000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the element on experts page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "experts",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.129Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "test 3",
+        "description": "",
+        "id": "scenarios-file;test-3;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 192000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19245000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open the chrome browser and navigate to http://localhost:83/#!/jobs/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/jobs/search",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19596000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the element on jobs page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jobs",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.130Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "test 3",
+        "description": "",
+        "id": "scenarios-file;test-3;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4640000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51231000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open the firefox browser and navigate to http://localhost:83/#!/jobs/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/jobs/search",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5535000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the element on jobs page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jobs",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Scenarios file",
+    "description": "",
+    "id": "scenarios-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Home.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-23T16:28:37.130Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "test file 2.1",
+        "description": "",
+        "id": "scenarios-file-2;test-file-2.1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30100000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the chrome browser and navigate to http://localhost:83/#!/organizations/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/organizations/search",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2837000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the element on organizations page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "organizations",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.129Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "test file 2.1",
+        "description": "",
+        "id": "scenarios-file-2;test-file-2.1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2780000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60445000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the firefox browser and navigate to http://localhost:83/#!/organizations/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/organizations/search",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the element on organizations page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "organizations",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.129Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "test file 2.2",
+        "description": "",
+        "id": "scenarios-file-2;test-file-2.2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 384000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43352000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open the chrome browser and navigate to http://localhost:83/#!/tenders/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/tenders/search",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the element on funding page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "funding",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:28:37.130Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "test file 2.2",
+        "description": "",
+        "id": "scenarios-file-2;test-file-2.2;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5779000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49485000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open the firefox browser and navigate to http://localhost:83/#!/tenders/search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/tenders/search",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4375000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the element on funding page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "funding",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:29:02.284Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "test file 2.3",
+        "description": "",
+        "id": "scenarios-file-2;test-file-2.3;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60616000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open the chrome browser and navigate to http://localhost:83/#!/donors",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/donors",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the element on donors page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "donors",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-23T16:29:05.340Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.startDriver()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "test file 2.3",
+        "description": "",
+        "id": "scenarios-file-2;test-file-2.3;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1740000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hook.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41820000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open the firefox browser and navigate to http://localhost:83/#!/donors",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "http://localhost:83/#!/donors",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.openBrowser(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the element on donors page is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "donors",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.HomeStepDef.elementIsPresent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Scenarios file 2",
+    "description": "",
+    "id": "scenarios-file-2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Home2.feature",
+    "tags": []
+  }
+]

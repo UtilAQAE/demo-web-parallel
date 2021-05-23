@@ -4,13 +4,13 @@
     <test name="Chrome">
         <parameter name="Type" value="chrome" />
         <classes>
-            <class name="runner.ChromeRunner"/>
+            <class name="runner.DefaultRunner"/>
         </classes>
     </test>
     <test name="Firefox">
         <parameter name="Type" value="firefox" />
         <classes>
-            <class name="runner.FireFoxRunner"/>
+            <class name="runner.DefaultRunner"/>
         </classes>
     </test>
 </suite> <!-- Suite -->

@@ -6,18 +6,16 @@ import io.cucumber.java.Before;
 
 import java.io.IOException;
 
-public class Hook {
+public class Hook extends DriverManager {
 
     @Before
-    public void initBrowser() throws IOException {
-        DriverManager.initDriver("firefox");
+    public void startDriver() throws IOException {
+//       DriverManager.startWebDriver("chrome");
     }
 
     @After
-    public void killBrowser() {
-        if(DriverManager.getDriver() != null) {
-            DriverManager.getDriver().quit();
-        }
+    public void quitDriver() {
+       stopWebDriver();
     }
 
 }
